@@ -12,7 +12,7 @@
       var charCount = textArea.value.length;
       var maxChar = textArea.getAttribute("maxlength");
       // Update the paragraph content
-      document.getElementById("characterCount").textContent = charCount + " of " + maxChar + " max characters";
+      document.getElementById("characterCount").textContent = charCount + " tot " + maxChar + " maximale tekens";
     }
 
     // Initialize character count on load
