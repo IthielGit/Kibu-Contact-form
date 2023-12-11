@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <!-- partial:index.partial.html -->
+   <div class="container">
+      <form
+         action='https://forms.zohopublic.eu/kibuhl/form/KibuContact/formperma/zNwi_nkP_6OWaSa5KlN0mA8u6NmWNL57_tOvfVeCnrs/htmlRecords/submit'
+         name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();'
+         accept-charset='UTF-8' enctype='multipart/form-data' id='form'>
+         <input type="hidden" name="zf_referrer_name" value="">
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" maxlength="255" name="Name_First" fieldType=7 required />
+               <div class="underline"></div>
+               <label for="Name_First">First Name</label>
+            </div>
+            <div class="input-data">
+               <input type="text" maxlength="255" name="Name_Last" fieldType=7 required>
+               <div class="underline"></div>
+               <label for="Name_Last">Last Name</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input fieldType=9 type="text" maxlength="255" name="Email" checktype="c5" value="" required>
+               <div class="underline"></div>
+               <label for="Email">Email Address</label>
+            </div>
+            <div class="input-data">
+               <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" maxlength="20" checktype="c7"
+                  value="" phoneFormat="1" isCountryCodeEnabled=false fieldType="11"
+                  id="international_PhoneNumber_countrycode" valType="number" phoneFormatType="1" required>
+               <div class="underline"></div>
+               <label for="PhoneNumber_countrycode">Phone number</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data textarea">
+               <textarea textarea name="MultiLine" checktype="c1" maxlength="600" required></textarea>
+               <br />
+               <div class="underline"></div>
+               <label for="MultiLine">Write your message</label>
+
+               <div class="charcount">
+                  <p id="characterCount">
+                     0 or 600 max characters
+                  </p>
+               </div>
+               <br />
+               <div class="form-row submit-btn">
+                  <div class="input-data">
+                     <input type="submit" value="Send">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </form>
+   </div>
+   <!-- partial -->
+<script src="/character-counter.js"></script>
+</body>
+
+</html>
